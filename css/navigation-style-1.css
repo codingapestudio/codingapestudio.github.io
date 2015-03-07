@@ -10,7 +10,7 @@
 		top:0;
 		text-align:center;
 		line-height:60px;
-		background-color:#000;
+		background-color:#17649a;
 		z-index:2000;
 		color:#fff;
 		font-size:bold;
@@ -32,7 +32,7 @@
 	}
 
 	.navbar-inner {
-		background: #000;
+		background: #17649a;
 		z-index:10;
 		border:none;		
 	}

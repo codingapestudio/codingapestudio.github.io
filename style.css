@@ -596,7 +596,6 @@ Primary use:	Showcase Portfolio
 		width:600px;
 		margin:0 auto;
 		text-align:center;
-		padding-bottom:60px;
 	}
 	
 	.title-content {
@@ -604,13 +603,14 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.section-title h3 {
-		background-color:#000;
+		background-color:#17649a;
 		color:#fff;
 		display:inline-block;
 		text-transform:uppercase;
 		line-height:36px;
 		padding:10px 20px;
-		letter-spacing:2px;		
+		letter-spacing:2px;	
+		font-weight: 600;	
 	}
 	
 	.title-dots {
@@ -3003,7 +3003,7 @@ Primary use:	Showcase Portfolio
 		position:relative;
 		padding:60px 0;
 		text-align:center;
-		background-color:#000;
+		background-color:#17649a;
 	}
 	
 	#footer .container {

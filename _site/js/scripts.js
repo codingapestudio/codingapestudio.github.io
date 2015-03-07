@@ -245,7 +245,7 @@ $(window).load(function(){
 		var block_intro = page_title.find('.home-content');
 		if( block_intro.length > 0 ) var block_intro_top = block_intro.offset().top;	
 	$( window ).scroll(function() {
-		var current_top = $(document).scrollTop(); var collage_height = $('#home').height();  block_intro.css('top', (current_top*0.50)); block_intro.css('opacity', (1 - current_top/collage_height*1.2));
+		var current_top = $(document).scrollTop(); var collage_height = $('#home').height();  block_intro.css('top', (current_top*0.50)); block_intro.css('opacity', (1.75 - current_top/collage_height*1.2));
 	});
 	
 	
