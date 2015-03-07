@@ -1,0 +1,14 @@
+# Dependencies
+markdown: kramdown
+highlighter: pygments
+url: 0.0.0.0:4000
+
+# Permalinks
+permalink: pretty
+relative_permalinks: true
+
+# Title
+title: CodingApe Studio
+
+paginate: 5
+paginate_path: "/blog/page:num/"
