@@ -3565,7 +3565,11 @@ Primary use:	Showcase Portfolio
    
    
    
-   
+	.service
+	{
+		margin: auto;
+		padding: 0;
+	}
    
    
 
