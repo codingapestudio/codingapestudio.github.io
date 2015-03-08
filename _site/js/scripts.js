@@ -283,19 +283,19 @@ $(window).load(function(){
 		
 		
 	// Radial Counters	
-	if( jQuery('.radial-counter').length > 0 ){		
-		$(".knob").knob({
+	if( jQuery('.radial-counter-1').length > 0 ){		
+		$(".knob1").knob({
 			width: 140,
 			height: 140,
-			fgColor: '#000',
+			fgColor: '#40b3df',
 			inputColor: '#fff',
 			dynamicDraw: true,
-			thickness: 0.05,
+			thickness: 0.075,
 			tickColorizeValues: true,
 			skin:'tron',
 			readOnly:true,
 		});	
-		$(".knob").appear(function(e){			
+		$(".knob1").appear(function(e){			
 			var $this = $(this);
 			var myVal = $this.attr("data-gal");	
 		   $({value: 0}).animate({value: myVal}, {
@@ -308,6 +308,55 @@ $(window).load(function(){
 		});	
 	}	
 	
+	if( jQuery('.radial-counter-2').length > 0 ){		
+		$(".knob2").knob({
+			width: 140,
+			height: 140,
+			fgColor: '#a8cb17',
+			inputColor: '#fff',
+			dynamicDraw: true,
+			thickness: 0.075,
+			tickColorizeValues: true,
+			skin:'tron',
+			readOnly:true,
+		});	
+		$(".knob2").appear(function(e){			
+			var $this = $(this);
+			var myVal = $this.attr("data-gal");	
+		   $({value: 0}).animate({value: myVal}, {
+			   duration: 2000,
+			   easing: 'swing',
+			   step: function () {
+				   $this.val(Math.ceil(this.value)).trigger('change');
+			   }
+		   })			
+		});	
+	}	
+	
+	if( jQuery('.radial-counter-3').length > 0 ){		
+		$(".knob3").knob({
+			width: 140,
+			height: 140,
+			fgColor: '#f2bc5f',
+			inputColor: '#fff',
+			dynamicDraw: true,
+			thickness: 0.075,
+			tickColorizeValues: true,
+			skin:'tron',
+			readOnly:true,
+		});	
+		$(".knob3").appear(function(e){			
+			var $this = $(this);
+			var myVal = $this.attr("data-gal");	
+		   $({value: 0}).animate({value: myVal}, {
+			   duration: 2000,
+			   easing: 'swing',
+			   step: function () {
+				   $this.val(Math.ceil(this.value)).trigger('change');
+			   }
+		   })			
+		});	
+	}	
 	
 	//Toggle Map
 	$('.hide-overlay').click(function() {

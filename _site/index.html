@@ -14,6 +14,7 @@
     <link href="css/flexslider.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen"/>
     <link href="css/font-awesome.min.css" rel="stylesheet" />
+	<link href="css/keyboard.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />    
    
 </head>
@@ -21,83 +22,42 @@
 		<!-- Preloader -->
 <div class="mask"><div id="loader"></div></div>
 <!--/Preloader -->
-			<!-- Home Section -->
-	<header id="home" class="light-content">
-    	
-        <!-- Home Content -->
-    	<div class="home-content">
-        
-        
-            <!-- Home Image -->
-            <div class="home-image" style="background-image:url(images/fss9.jpg)">
-           
-           
-                <!-- Overlay Color -->           
-                <div class="overlay" style="background-color:rgba(64,179,223,0.85)">
-                
-                    
-                    <!-- Content Center -->
-                    <div class="content-center">
-                    
-                   
-                        <!-- Content Vertical Center -->
-                        <div class="content-vertical-center-left">
-                        	
-                            <div class="container">
+		<!-- Home Section -->
+<header id="home" class="light-content"> 	
+	<!-- Home Content -->
+	<div class="home-content">
+		<!-- Home Image -->
+		<div class="home-image" style="background-image:url(images/fss9.jpg)">        
+			<!-- Overlay Color -->           
+			<div class="overlay" style="background-color:rgba(64,179,223,0.85)">       
+				<!-- Content Center -->
+				<div class="content-center">
+					<!-- Content Vertical Center -->
+					<div class="content-vertical-center-left">                      	
+						<div class="container">  
+							<h2><strong>CodingApe Studio</strong></h2><br>
+							
+							<div class="type-wrap">
+								<span id="typed"></span>
+							</div><br>
                             
-                            <h3><strong>Welcome to CodingApe Studio!</strong></h3><br>
-                            
-                            <div class="type-wrap">
-                                <span id="typed"></span>
-                            </div><br>
-                            
-                            <hr style="opacity:0.3">
-                            
-                            <!--<div class="one_third"><br><br><br><br>          
-                                    <i class="fa fa-desktop fa-4x"></i><br> 
-                                    <h4>Design Graphic</h4>  
-                            </div>
-                            
-                            <div class="one_third"><br><br><br><br>           
-                                    <i class="fa fa-code fa-4x"></i><br>
-                                    <h4>Web Development</h4>     
-                            </div>
-                            
-                            <div class="one_third last"><br><br><br><br> 
-                                    <i class="fa fa-camera-retro fa-4x"></i><br>
-                                    <h4>Photography & Video</h4> 
-                                
-                            </div>  -->               
-                        	
-                            </div>
-                            
-                        </div>
-                        <!--/Content Vertical Center -->
-                        
-                        
-                    </div>            
-                    <!--/Content Center -->
-                    
-                    
-                </div>
-                <!--/Overlay Color -->                            
-                
-                
-            </div>
-            <!-- Home Image -->
-            
-        
-        	<!-- Next Section -->
-        	<a class="move" href="#about"><div class="next-section"></div></a>
-        	<!-- Next Section -->
-        
-        
-        
-        </div>	
-        <!-- Home Content -->
-        
-	</header>	
-	<!-- End Home Section -->
+							<hr style="opacity:0.3">                     
+						</div>
+						<!--/Content Vertical Center -->        
+					</div>            
+					<!--/Content Center -->     
+				</div>
+				<!--/Overlay Color -->                             
+			</div>
+			<!-- Home Image -->
+			     
+			<!-- Next Section -->
+			<a class="move" href="#about"><div class="next-section"></div></a>
+			<!-- Next Section -->  
+		</div>	
+		<!-- Home Content -->    
+</header>	
+<!-- End Home Section -->
 		
 		    <!-- Navigation -->
     <div id="navigation" class="navbar navbar-fixed-top">
@@ -136,14 +96,14 @@
 		<!-- Section Title -->
 		<div class="section-title">
 			<div class="title-content">            
-				<h3>About Us</h3>            
+				<h3>OUR EXPERTISE</h3>            
 				<ul class="title-dots"><li></li><li></li><li></li></ul>            
 			</div>
 		</div>
 		<!--/Section Title -->      		
 		<div class="one_third text-align-center">
-        	<div class="radial-counter">
-            	<input class="knob"  data-gal="100" value="0">
+        	<div class="radial-counter-1">
+            	<input class="knob1"  data-gal="100" value="0">
                 <h5 class="radial-counter-name">Web App</h5>
             	<p class="radial-counter-info">Design crystal, robust and user friendly websites.</p>
             </div>
@@ -151,16 +111,16 @@
 		</div>
             
 		<div class="one_third text-align-center">
-        	<div class="radial-counter">
-            	<input class="knob"  data-gal="80" value="0">
+        	<div class="radial-counter-2">
+            	<input class="knob2"  data-gal="80" value="0">
                 <h5 class="radial-counter-name">Mobile App</h5>
             	<p class="radial-counter-info">Sculpt individual ideas into practical business solution.</p>
             </div>
 		</div>
             
 		<div class="one_third last text-align-center">
-        	<div class="radial-counter">
-            	<input class="knob"  data-gal="90" value="0">
+        	<div class="radial-counter-3">
+            	<input class="knob3"  data-gal="90" value="0">
                 <h5 class="radial-counter-name">Custom Solution</h5>
             	<p class="radial-counter-info">Deliver elegant and native Apps for iOS and Android.</p>
             </div>
@@ -182,7 +142,7 @@
 		<!-- Section Title -->
 		<div class="section-title">
 			<div class="title-content">            
-				<h3>Services</h3>            
+				<h3>OUR SERVICES</h3>            
 				<ul class="title-dots"><li></li><li></li><li></li></ul>            
 			</div>
 		</div>
@@ -465,10 +425,10 @@ $(function(){
 
 	$("#typed").typed({
 		strings: ["", 
-		" Website Design and development",  
-		" iOS application design and development",
+		" We design Web application",  
+		" We design Mobile application",
 		" and", 
-		" Solutions"],
+		" We provide solutions"],
 		typeSpeed: 60,
 		startDelay: 500,
 		backDelay: 500,

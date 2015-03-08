@@ -931,14 +931,40 @@ Primary use:	Showcase Portfolio
 		margin:10px;
 	}
 	
-	.radial-counter input {
+	.radial-counter-1 input {
 		cursor:default;
 		font-family: 'Open Sans', sans-serif!important;
 		font-weight:400!important;
 		font-size:13px!important;
 		height:50px!important;
 		width:50px!important;
-		background-color:#000!important;
+		background-color:#40b3df!important;
+		border-radius:100%;
+		margin-left: -95px!important;
+    	margin-top: 45px!important;
+	}
+	
+	.radial-counter-2 input {
+		cursor:default;
+		font-family: 'Open Sans', sans-serif!important;
+		font-weight:400!important;
+		font-size:13px!important;
+		height:50px!important;
+		width:50px!important;
+		background-color:#a8cb17!important;
+		border-radius:100%;
+		margin-left: -95px!important;
+    	margin-top: 45px!important;
+	}
+	
+	.radial-counter-3 input {
+		cursor:default;
+		font-family: 'Open Sans', sans-serif!important;
+		font-weight:400!important;
+		font-size:13px!important;
+		height:50px!important;
+		width:50px!important;
+		background-color:#f2bc5f!important;
 		border-radius:100%;
 		margin-left: -95px!important;
     	margin-top: 45px!important;
@@ -2158,8 +2184,8 @@ Primary use:	Showcase Portfolio
 	/* Typing Text */
 	
 	#typed {
-		font-size:36px;
-		line-height:40px;
+		font-size:25px;
+		line-height:35px;
 		font-family: 'Open Sans', sans-serif;
 		color:#000;
 		font-weight:200;
