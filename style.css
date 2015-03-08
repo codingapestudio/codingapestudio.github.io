@@ -2508,7 +2508,7 @@ Primary use:	Showcase Portfolio
 		display: block;
 		font-family:Georgia, "Times New Roman", Times, serif;
 		font-style:italic;
-		color:#999;
+		color:#fff;
 	}
 	
 	#filters ul li a:after {
@@ -2571,7 +2571,7 @@ Primary use:	Showcase Portfolio
 	}
 
 	.portfolio-item:hover .project-overlay {
-		opacity:1;
+		opacity:0.75;
 		transition:all 0.4s ease 0s;
 		-moz-transition:all 0.4s ease 0s;
     	-webkit-transition:all 0.4s ease 0s;
@@ -2580,7 +2580,7 @@ Primary use:	Showcase Portfolio
 	}
 
 	.project-overlay {
-		background-color:#000;
+		background-color:#fff;
 		width:100%;
 		height:100%;
 		position:absolute;
@@ -2621,7 +2621,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.project-name {
-		color:#fff;
+		color:#000;
 		text-transform:uppercase;
 		margin-top:32px;
 		margin-bottom:0px;
@@ -2644,12 +2644,11 @@ Primary use:	Showcase Portfolio
 	
 	.project-categories {
 		font-size:13px;
-		color:#fff;
+		color:#000;
 		opacity:0;
 		margin-top:5px;
 		font-family:Georgia, "Times New Roman", Times, serif;
 		font-style:italic;
-		color:rgba(255,255,255,0.6);
 		transition:all 0.2s ease 0s;
 		-moz-transition:all 0.2s ease 0s;
     	-webkit-transition:all 0.2s ease 0s;
