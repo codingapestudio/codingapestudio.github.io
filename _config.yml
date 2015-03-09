@@ -1,7 +1,7 @@
 # Dependencies
 markdown: kramdown
 highlighter: pygments
-url:
+url: http://www.codingapestudio.com
 
 # Permalinks
 permalink: none
