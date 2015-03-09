@@ -18,7 +18,7 @@ jQuery(document).ready(function(){
 			comments: $('#comments').val()
 		},
 			function(data){
-				document.getElementById('message').innerHTML = data;
+				//document.getElementById('message').innerHTML = data;
 				$('#message').slideDown('slow');
 				$('#contactform img.loader').fadeOut('slow',function(){$(this).remove()});
 				$('#submit').removeAttr('disabled');
