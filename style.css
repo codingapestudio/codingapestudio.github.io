@@ -2169,12 +2169,30 @@ Primary use:	Showcase Portfolio
 		text-transform:uppercase;
 	}
 	
+	#thank-you-typed{
+		font-size:25px;
+		line-height:35px;
+		font-family: 'Open Sans', sans-serif;
+		color:#000;
+		font-weight:200;
+		text-transform:uppercase;
+	}
+	
 	.small-type #typed {
 		font-size:18px;
 		line-height:24px;
 	}
 	
+	.small-type #thank-you-typed {
+		font-size:18px;
+		line-height:24px;
+	}
+	
 	.light-content #typed {
+		color:#fff;
+	}
+	
+	.light-content #thank-you-typed {
 		color:#fff;
 	}
 	
