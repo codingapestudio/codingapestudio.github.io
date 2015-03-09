@@ -1,10 +1,10 @@
 # Dependencies
 markdown: kramdown
 highlighter: pygments
-url: 0.0.0.0:4000
+url:
 
 # Permalinks
-permalink: pretty
+permalink: none
 relative_permalinks: true
 
 # Title

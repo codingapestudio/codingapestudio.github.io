@@ -22,7 +22,14 @@ $(function(){
 		$("#typed").typed('reset');
 	});
 
+    $('#contactform').submit(function(){
+      $.post('https://getsimpleform.com/messages?form_api_token=11e721fab49b71b7e28e360ddc910cf3', function() {
+        window.location = 'http://www.codingapestudio.com/thank-you.html';
+      });
+      return false;
+    });
 });
+
 
 function newTyped(){ /* A new typed object */ }
 
