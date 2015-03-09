@@ -1,8 +1,8 @@
 $(window).load(function(){
 	
 	//Page Preloader
-	$("#loader").delay(1000).fadeOut(); 
-	$(".mask").delay(1500).fadeOut("slow");
+	$("#loader").delay(500).fadeOut(); 
+	$(".mask").delay(800).fadeOut("slow");
 		
 		
 	//Sticky Navigation		
