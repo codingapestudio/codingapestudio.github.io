@@ -446,7 +446,7 @@ $(document).ready(function($){
 			if (winWidth > 1300) {
 				if (typeof attr_large !== typeof undefined && attr_large !== false) {
 					columnNumb = $('#portfolio-wrap').attr('data-col-large');
-				} else columnNumb = 5;
+				} else columnNumb = 4;
 			} else if (winWidth > 1024) {
 				if (typeof attr_small !== typeof undefined && attr_small !== false) {
 					columnNumb = $('#portfolio-wrap').attr('data-col-small');
