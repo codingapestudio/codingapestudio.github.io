@@ -3370,7 +3370,11 @@ Primary use:	Showcase Portfolio
 	.container {
 		width:280px;
 	}
-	
+
+    .container.main-content{
+        padding: 0px;
+    }
+
 	.container.small-width {
 		width: 280px;
 	}
